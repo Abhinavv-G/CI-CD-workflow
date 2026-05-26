@@ -18,6 +18,7 @@ Push the Docker image to Docker Hub
 ## Run Locally
 
 docker build -t myapp .
+
 docker run myapp
 
 
