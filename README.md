@@ -14,3 +14,13 @@ Authenticate with Docker Hub
 Push the Docker image to Docker Hub
 
 <img width="1002" height="507" alt="p2" src="https://github.com/user-attachments/assets/bf99d01e-7cfb-4cdb-8f48-1466924db711" />
+
+## Run Locally
+
+docker build -t myapp .
+docker run myapp
+
+
+Workflow Trigger
+
+The GitHub Actions workflow executes automatically when code is pushed to the 'main' branch.
